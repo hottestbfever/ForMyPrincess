@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Princess's Fantasy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>A Princess's Fantasy</h1>
+    
+    <!-- Question counter -->
+    <div id="question-counter">Question 1/13</div>
+
+    <div id="scene">Lorenzo smiles at Nox. What do you do?</div>
+
+    <div id="buttons">
+        <!-- Responses will be added dynamically by the script -->
+    </div>
+
+    <button id="next" style="display: none;" onclick="nextQuestion()">Next</button>
+
+    <!-- Audio element for the correct ding -->
+    <audio id="ding-sound">
+        <source src="https://www.myinstants.com/media/sounds/correct-ding.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>

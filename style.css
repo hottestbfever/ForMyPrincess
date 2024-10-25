@@ -1,0 +1,58 @@
+/* General page styling */
+body {
+    background-image: url('https://assets.myweddingguide.co.nz/Articles/Medium/031140830.jpg'); /* Halloween romantic background */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #f0e1d6;
+    font-family: 'Garamond', serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Title styling with white outline */
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3em;
+    color: #ff6f61; /* Soft romantic orange */
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5), -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff; /* White outline */
+}
+
+/* Question counter styling */
+#question-counter {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 16px;
+    color: #f0e1d6;
+}
+
+/* Scene text styling */
+#scene {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 16px;
+    color: #f0e1d6;
+    margin-bottom: 40px;
+}
+
+/* Button styling */
+button {
+    position: relative;
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 16px;
+    transition: transform 0.3s ease;
+    margin: 10px;
+}
+
+button:active {
+    transform: scale(1.1);
+}
